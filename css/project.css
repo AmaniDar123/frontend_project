@@ -1,0 +1,65 @@
+:root {
+    
+    --color-secondary:#485664;
+    --font-secondary: 'Poppins', sans-serif;
+    --green-color:#33d1cc ;
+
+}
+body{
+    font-family: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height: 10000px;
+    
+}
+/* Start Navbar */
+.navbar{
+    
+    top: 0;
+    padding: 15px 0;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+    justify-items: end;
+    
+}
+.navbar h1{
+    font-size: 32px;
+    font-weight: 300;
+    color:var(--color-secondary);
+    font-family: var(--font-secondary);
+}
+.navbar span{
+    color: var(--green-color);
+}
+.navbar .navbar-nav .nav-link {
+    color: var(--color-secondary)
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+color: var(--green-color);
+text-decoration-line: underline;
+
+}
+
+.navbar .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow:none;
+}
+.btn-primary {
+    left: 0;
+    
+}
+.dropdown-item a{
+    display: none;
+    
+}
+.dropdown-item a:hover{
+    display: block;
+}
+
+/* End Navbar */
+
